@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    display: block;
+    background-color: aquamarine;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+nav a.active{
+    background-color: blanchedalmond;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.form input, .form button{
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.error{
+    color: red;
+    border: 2px solid red;
+}
+#error{
+    display: none;
+}
